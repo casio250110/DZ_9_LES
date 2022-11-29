@@ -2,6 +2,8 @@
 //N = 5 -> "5, 4, 3, 2, 1"
 //N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
+Console.Write("Введите значение натурального числа N: ");
+int n = int.Parse(Console.ReadLine());
 string FillNumbers(int n)
 {
     if (n == 1) return n.ToString();
@@ -11,4 +13,4 @@ string FillNumbers(int n)
     }
 
 }
-Console.WriteLine(FillNumbers(8)); 
+Console.WriteLine(FillNumbers(n)); 
