@@ -3,7 +3,7 @@
 //N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
 Console.Write("Введите значение натурального числа N: ");
-int n = int.Parse(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 string FillNumbers(int n)
 {
     if (n == 1) return n.ToString();
